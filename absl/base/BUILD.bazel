@@ -432,7 +432,7 @@ cc_test(
     deps = [
         ":base",
         "//absl/synchronization",
-        "@com_github_google_benchmark//:benchmark_main",
+        "//absl:benchmark",
     ],
 )
 

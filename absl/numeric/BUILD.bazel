@@ -63,6 +63,6 @@ cc_test(
     deps = [
         ":int128",
         "//absl/base:config",
-        "@com_github_google_benchmark//:benchmark_main",
+        "//absl:benchmark",
     ],
 )

@@ -273,7 +273,7 @@ cc_test(
     deps = [
         ":variant",
         "//absl/utility",
-        "@com_github_google_benchmark//:benchmark_main",
+        "//absl:benchmark",
     ],
 )
 

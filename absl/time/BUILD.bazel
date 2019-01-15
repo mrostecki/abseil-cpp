@@ -111,6 +111,6 @@ cc_test(
         ":time",
         "//absl/base",
         "//absl/hash",
-        "@com_github_google_benchmark//:benchmark_main",
+        "//absl:benchmark",
     ],
 )

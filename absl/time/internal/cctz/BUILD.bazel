@@ -129,7 +129,7 @@ cc_test(
     deps = [
         ":civil_time",
         ":time_zone",
-        "@com_github_google_benchmark//:benchmark_main",
+        "//absl:benchmark",
     ],
 )
 

@@ -20,6 +20,13 @@ licenses(["notice"])  # Apache 2.0
 
 load(":compiler_config_setting.bzl", "create_llvm_config")
 
+cc_library(
+    name = "benchmark",
+    hdrs = glob(["thirdparty_build/include/benchmark/benchmark.h"]),
+    copts = [],
+    linkopts = [],
+)
+
 create_llvm_config(
     name = "llvm_compiler",
     visibility = [":__subpackages__"],
